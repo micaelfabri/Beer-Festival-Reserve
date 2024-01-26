@@ -1,0 +1,16 @@
+:root {
+    --color-neutral-10: #0d1117;
+    --color-neutral-20: #161b22;
+    --color-neutral-30: #21262d;
+    --color-neutral-40: #2C2D34;
+    --color-neutral-50: #30363d;
+    --color-neutral-60: #8b949e;
+    --color-neutral-70: #c9d1d9;
+    --color-neutral-80: #eeeeee;
+
+    --color-link: #EFD510;
+
+    --color-button: #E94822;
+    --color-button-hover: #F9A826;
+}
+
