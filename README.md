@@ -34,6 +34,7 @@ O projeto simula uma página de autenticação (login/criação de conta) que po
 
 ## 📁 Estrutura do Projeto
 
+```text
 Beer-Festival-Reserve/
 │
 ├── assets/
