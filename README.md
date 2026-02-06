@@ -1,34 +1,36 @@
 # Beer Festival Reserve 🍺
 
-Projeto de **sistema de reserva/login para um festival de cerveja**, desenvolvido com foco em **front-end**, praticando **HTML, CSS e JavaScript**.
+Projeto **front-end** de um sistema simples de **autenticação/reserva** para um festival de cerveja, criado para praticar **HTML e CSS** com organização de pastas e estilos globais reutilizáveis.
 
-O projeto simula uma página de autenticação (login/criação de conta) que pode servir como base para sistemas maiores de eventos, ingressos ou reservas.
-
----
-
-## 📸 Preview
-
-> Interface de login e criação de conta para um festival de cerveja.
-
-*(Prints podem ser adicionados futuramente)*
+O foco do projeto é entregar uma base visual pronta para integração futura com backend (caso você queira), contendo páginas de **Login**, **Criar conta** e **Recuperar senha**.
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Páginas
 
-- Página de login
-- Página de criação de conta
-- Interface visual temática (festival de cerveja)
-- Estrutura organizada de arquivos
-- Base pronta para integração com backend
+- **Login** (`index.html`)
+- **Criar conta** (`pages/newaccount.html`)
+- **Recuperar senha** (`pages/forgotpass.html`)
+
+---
+
+## ✅ Funcionalidades (front-end)
+
+- Layout consistente entre páginas
+- Formulários de login e cadastro
+- Página de recuperação de senha (envio de link – protótipo)
+- CSS organizado com:
+  - estilos globais (normalize, elements, variables, fonts)
+  - estilos específicos por página
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5** – Estrutura das páginas
-- **CSS3** – Estilização e layout
-- **JavaScript (Vanilla)** – Comportamentos básicos da interface
+- **HTML5**
+- **CSS3**
+
+> Observação: este projeto é visual/front-end (sem backend).
 
 ---
 
@@ -38,13 +40,28 @@ O projeto simula uma página de autenticação (login/criação de conta) que po
 Beer-Festival-Reserve/
 │
 ├── assets/
-│ ├── css/
-│ ├── images/
-│ └── js/
+│   ├── css/
+│   │   ├── global/
+│   │   │   ├── global.css
+│   │   │   ├── normalize.css
+│   │   │   ├── elements.css
+│   │   │   ├── variables.css
+│   │   │   └── fonts.css
+│   │   │
+│   │   └── pages/
+│   │       ├── index/
+│   │       │   └── index.css
+│   │       ├── newaccount/
+│   │       │   └── newaccount.css
+│   │       └── forgotpass/
+│   │           └── forgotpass.css
+│   │
+│   └── images/
+│       └── (imagens e ícones do projeto)
 │
 ├── pages/
-│ ├── login.html
-│ └── newaccount.html
+│   ├── newaccount.html
+│   └── forgotpass.html
 │
 ├── index.html
 └── README.md
