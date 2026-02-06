@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/global/global.css">
     <link rel="stylesheet" href="../assets/css/pages/forgotpass/forgotpass.css">
     <link rel="icon" href="../assets/images/beer2.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,11 +12,36 @@
     <title>Forgot my Pass</title>
 </head>
 <body>
-    FORMULÁRIO ESQUECI MINHA SENHA
+    <header>
+        <img id="logo" src="../assets/images/beer.png" alt="beer logo">
+    </header>
+    <main id="container">
+        <h1 id="title">Recuperar senha</h1>
 
-    <!-- Voltar ao Topo -->
-    <div class="back-button">
-        <button><a href="./forgotpass.html">Voltar ao Topo</a></button>
-    </div>
+        <form action="">
+            <div class="input-field">
+                <label for="email">
+                    E-mail
+                </label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
+            </div>
+
+            <button type="submit" id="submit_button">Enviar link</button>
+
+            <div id="login_callout">
+                <p>Voltar para o <a href="../index.html">login</a>!</p>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <p id="copy">&copy; Copyright Micael Fabri 2023</p>
+    </footer>
 </body>
 </html>

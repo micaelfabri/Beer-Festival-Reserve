@@ -1,4 +1,6 @@
 :root {
+
+    /* Cores */
     --color-neutral-10: #0d1117;
     --color-neutral-20: #161b22;
     --color-neutral-30: #21262d;
@@ -8,9 +10,25 @@
     --color-neutral-70: #c9d1d9;
     --color-neutral-80: #eeeeee;
 
+    /* Cores de destaque */
     --color-link: #EFD510;
 
+    /* Cores de ação */
     --color-button: #E94822;
     --color-button-hover: #F9A826;
-}
 
+    /* Tipografia */
+    --font-family-base: 'Poppins', sans-serif;
+
+    /* Layout*/
+    --radius-base: 12px;
+    
+    /* Espaçamentos */
+    --space-1: 8px;
+    --space-2: 12px;
+    --space-3: 16px;
+    --space-4: 24px;
+
+    /* Sombra leve */
+    --shadow-1: 0px 8px 24px rgba(0, 0, 0, 0.2);
+}
